@@ -1,0 +1,51 @@
+text {
+	COLOR: #faf0e6; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13pt; TEXT-DECORATION: none
+}
+A {
+	COLOR: #a49fff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13pt; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: white
+}
+A:hover {
+	COLOR: white;cursor:sw-resize; font-weight: bold
+}
+A:visited {
+	COLOR: #a49fff
+}
+A.menulink {
+	COLOR: #7b78e9; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+A.menulink:active {
+	COLOR: white
+}
+A.menulink:hover {
+	COLOR: white
+}
+A.menulink:visited {
+	COLOR: #7b78e9
+}
+A.dirlink {
+	COLOR: #b7bcff; FONT-FAMILY: MS Sans Serif,Arial, Helvetica, sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+A.dirlink:active {
+	COLOR: white
+}
+A.dirlink:hover {
+	COLOR: white
+}
+A.dirlink:visited {
+	COLOR: #b7bcff
+}
+A.dirlink1 {
+	COLOR: #a49fff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 16pt; TEXT-DECORATION: none
+}
+A.dirlink1:active {
+	COLOR: white
+}
+A.dirlink1:hover {
+	COLOR: white
+}
+A.dirlink1:visited {
+	COLOR: #ffffff
+}

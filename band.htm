@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD><TITLE>The Band</TITLE>
+<LINK href="style/prima.css" rel=STYLESHEET type=text/css>
+<SCRIPT>
+<!--
+function CarregaEstilo() 
+{
+if (is.ie4) {
+   document.styleSheets(0).href="style/prima_ie4.css";
+   }
+}
+// -->
+</SCRIPT>
+<script language="javascript">
+function statusmessageobject(p,d) {
+  this.msg = message
+  this.out = " "
+  this.pos = position
+  this.delay = delay
+  this.i     = 0
+  this.reset = clearmessage
+}
+function clearmessage() {
+  this.pos = position
+}
+var position = 100
+var delay    = 40
+var message  = "Welcome to the Belizna3D Official Site.  Don't forget to visit our Fan Club and to leave your comments there. You also can use our e-mail for contact. Listen our songs, enjoy and relax... Have a good rest with Belizna3D!                                      "
+var scroll = new statusmessageobject()
+function scroller() {
+  for (scroll.i = 0; scroll.i < scroll.pos; scroll.i++) {
+    scroll.out += " "
+  }
+    if (scroll.pos >= 0)
+   scroll.out += scroll.msg
+  else scroll.out = scroll.msg.substring(-scroll.pos,scroll.msg.length)
+  window.status = scroll.out
+  scroll.out = " "
+  scroll.pos--
+    if (scroll.pos < -(scroll.msg.length)) {
+   scroll.reset()
+  }
+    setTimeout ('scroller()',scroll.delay)
+}
+</script>
+
+</HEAD>
+<BODY bgcolor="#000000" text="#faf0e6" onLoad="scroller()">
+<SCRIPT>
+<!--
+function Is() {
+  var agent = navigator.userAgent.toLowerCase();
+  this.major = parseInt(navigator.appVersion);
+  this.minor = parseFloat(navigator.appVersion);
+  this.ns = ((agent.indexOf('mozilla')!=-1) &&
+((agent.indexOf('spoofer')==-1) &&
+(agent.indexOf('compatible') == -1)));
+  this.ns4b = (this.ns && (this.minor < 4.04));
+  this.ns4 = (this.ns && (this.major >= 4));
+  this.ie = (agent.indexOf("msie") != -1);
+  this.ie4 = (this.ie && (this.major >= 4));
+}
+var is = new Is();
+CarregaEstilo() 
+// -->
+</SCRIPT>
+<table border=0>
+<tr>
+<td>
+<table border=0>
+<a href="inicial.htm">Home</a><br>
+<a href="about.htm">History of the Band</a><br>
+<a href="band.htm">The Band</a><br>
+<a href="songs.htm">Discography</a><br>
+<a href="fan.htm">Fan Club</a><br>
+</table>
+</td><td><center><img src="imagens/logo.jpg"></center>
+<center>
+<a href="mailto:webmaster@victor3d.com.br">Please e-mail to us</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<img src="imagens/player.gif">
+</td><td>
+<div align=center valign=top><font size="5" color="#ffff00">The Band</div>
+</font><br>
+<table border=0>
+<tr><td><img src="imagens/ps.jpg"></td><td><b> Peter Sadovnikov</b> - the creator of the band (born in 1965). Has no professional musical education. Before the Belizna3D he worked in some bands in Saint Petersburg. His profession is computer engineering. His hobbies are reading English books and music.</td></tr>
+<tr><td><b>Alexander Cherepuho</b> (born in 1946) is professional drum player. In Saint Petersburg he is famous for his great skills. In 1994 he had a big problem with his health and that is why he had to leave the band for some time. But since 1995 he is constant participant of the band again. </td><td><img src="imagens/ac.jpg"></td></tr>
+<tr><td><img src="imagens/pb.gif"></td><td><b>Pavel Berezovsky</b> (born in 1966) - he used to be raper. In 1989 he and Sergey W. Ivanov were participants of the band called "Hip-Hop Studio"(In Latvia). </td></tr>
+<tr><td><b>Sergey W. Ivanov</b> (born in 1958) is Belizna3D's poet. He has 2 books with his poems. He is also an artist. He has some pictures mainly about nature. </td><td><img src="imagens/swi.jpg"><br>
+<i>Sergey W. Ivanov with his wife.</i></td></tr>
+<tr><td align=center><img src="imagens/lb.jpg"></td><td><b>Lyona B.</b>(born in 1954) is known as Big Lion. He is biker and he prefers not to speak about himself.</td></tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="18"><tr> 
+<td colspan="2" align="left" valign="top" bgcolor="#868686"><img src="imagens/spacer.gif" width=1 height=2 border="0"></td></tr><tr><td align="left" valign="top" bgcolor="#000000"><img src="imagens/spacer.gif" width=3 height=16 border="0"></td><td align="center" valign="middle" bgcolor="#000000"> <font face="Arial,helvetica" size="1" color="#B6B6B6">2000(c)By VICTOR.</font></td></tr></table>
+</td></tr>
+</table>
+</BODY>
+</HTML>

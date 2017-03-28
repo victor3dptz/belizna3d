@@ -1,0 +1,62 @@
+text {
+	COLOR: #faf0e6; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13pt; TEXT-DECORATION: none
+}
+a  {
+        font-family : Arial, Helvetica, sans-serif;
+        color: #A49FFF;
+        text-decoration : none;
+        font-size : 13pt; }
+a:active {
+        color: White;
+}
+a:hover {
+        color: White;cursor:sw-resize; font-weight: bold
+}
+a:visited {
+        color: #A49FFF;
+}
+a.menulink  {
+        font-family : Arial, Helvetica, sans-serif;
+        color: #7B78E9;
+        text-decoration : none;
+        font-size : 7pt;
+ }
+a.menulink:active {
+        color: White;
+}
+a.menulink:hover {
+        color: White;
+}
+a.menulink:visited {
+        color: #7B78E9;
+}
+a.dirlink  {
+        font-family : MS Sans Serif,Arial, Helvetica, sans-serif;
+        color: #B7BCFF;
+        text-decoration : none;
+        font-size : 7pt;
+ }
+a.dirlink:active {
+        color: White;
+}
+a.dirlink:hover {
+        color: White;
+}
+a.dirlink:visited {
+        color: #B7BCFF;
+}
+a.dirlink1  {
+        font-family : Arial, Helvetica, sans-serif;
+        color: #A49FFF;
+        text-decoration : none;
+        font-size : 7pt;
+ }
+a.dirlink1:active {
+        color: White;
+}
+a.dirlink1:hover {
+        color: White;
+}
+a.dirlink1:visited {
+        color: #FFFFFF;
+}

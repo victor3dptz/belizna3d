@@ -1,0 +1,15 @@
+text {
+	COLOR: #faf0e6; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13pt; TEXT-DECORATION: none
+}
+A {
+	COLOR: #faf0e6; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 20pt; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: white
+}
+A:hover {
+	COLOR: white;cursor:sw-resize; font-weight: bold
+}
+A:visited {
+	COLOR: #faf0e6
+}

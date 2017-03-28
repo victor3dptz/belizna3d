@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD><TITLE>Belizna3D</TITLE>
+<LINK href="http://belizna3d.victor3d.karelia.ru/style/prima.css" rel=STYLESHEET type=text/css>
+<SCRIPT>
+<!--
+function CarregaEstilo() 
+{
+if (is.ie4) {
+   document.styleSheets(0).href="http://belizna3d.victor3d.karelia.ru/style/prima_ie4.css";
+   }
+}
+// -->
+</SCRIPT>
+<script language="javascript">
+function statusmessageobject(p,d) {
+  this.msg = message
+  this.out = " "
+  this.pos = position
+  this.delay = delay
+  this.i     = 0
+  this.reset = clearmessage
+}
+function clearmessage() {
+  this.pos = position
+}
+var position = 100
+var delay    = 40
+var message  = "Welcome to the Belizna3D Official Site.  Don't forget to visit our Fan Club and to leave your comments there. You also can use our e-mail for contact. Listen our songs, enjoy and relax... Have a good rest with Belizna3D!                                      "
+var scroll = new statusmessageobject()
+function scroller() {
+  for (scroll.i = 0; scroll.i < scroll.pos; scroll.i++) {
+    scroll.out += " "
+  }
+    if (scroll.pos >= 0)
+   scroll.out += scroll.msg
+  else scroll.out = scroll.msg.substring(-scroll.pos,scroll.msg.length)
+  window.status = scroll.out
+  scroll.out = " "
+  scroll.pos--
+    if (scroll.pos < -(scroll.msg.length)) {
+   scroll.reset()
+  }
+    setTimeout ('scroller()',scroll.delay)
+}
+</script>
+<SCRIPT>
+function sign() {
+window.open('---SIGN----', 'Entrada', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=no');
+}
+</SCRIPT>
+<SCRIPT>
+function view() {
+window.open('---VIEW----', 'Entrada', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=no');
+}
+</SCRIPT>
+<SCRIPT>
+function paint() {
+window.open('paint.html', 'Painter', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=589,height=309');
+}
+</SCRIPT>
+
+</HEAD>
+<BODY bgcolor="#000000" text="#faf0e6" onLoad="scroller()">
+<SCRIPT>
+<!--
+function Is() {
+  var agent = navigator.userAgent.toLowerCase();
+  this.major = parseInt(navigator.appVersion);
+  this.minor = parseFloat(navigator.appVersion);
+  this.ns = ((agent.indexOf('mozilla')!=-1) &&
+((agent.indexOf('spoofer')==-1) &&
+(agent.indexOf('compatible') == -1)));
+  this.ns4b = (this.ns && (this.minor < 4.04));
+  this.ns4 = (this.ns && (this.major >= 4));
+  this.ie = (agent.indexOf("msie") != -1);
+  this.ie4 = (this.ie && (this.major >= 4));
+}
+var is = new Is();
+CarregaEstilo() 
+// -->
+</SCRIPT>
+<table border=0>
+<tr>
+<td>
+<div align=left>
+<a href="http://belizna3d.victor3d.karelia.ru/inicial.htm">Home</a><br>
+<a href="http://belizna3d.victor3d.karelia.ru/about.htm">History of the Band</a><br>
+<a href="http://belizna3d.victor3d.karelia.ru/band.htm">The Band</a><br>
+<a href="http://belizna3d.victor3d.karelia.ru/songs.htm">Discography</a><br>
+<a href="http://belizna3d.victor3d.karelia.ru/fan.htm">Fan Club</a><br>
+</div>
+</td><td><center><img src="http://belizna3d.victor3d.karelia.ru/imagens/logo.jpg"></center>
+<center>
+<a href="mailto:webmaster@victor3d.com.br">Please e-mail to us</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://belizna3d.victor3d.karelia.ru/imagens/player.gif">
+</td><td>
+<div align=center valign=top><font size="5" color="#ffff00">Error 404: Not Found</div>
+</font><br>
+<p align=center>
+The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+<br></p>
+<br> 
+<a href="javascript:history.back(1)">Back to previous page</a>
+ 
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="18"><tr> 
+<td colspan="2" align="left" valign="top" bgcolor="#868686"><img src="http://belizna3d.victor3d.karelia.ru/imagens/spacer.gif" width=1 height=2 border="0"></td></tr><tr><td align="left" valign="top" bgcolor="#000000"><img src="http://belizna3d.victor3d.karelia.ru/imagens/spacer.gif" width=3 height=16 border="0"></td><td align="center" valign="middle" bgcolor="#000000"> <font face="Arial,helvetica" size="1" color="#B6B6B6">2000(c)By VICTOR.</font></td></tr></table>
+</td></tr>
+</table>
+</BODY>
+</HTML>
